@@ -1,0 +1,9 @@
+#include <stdio.h> 
+int main() { 
+    int x = 1234;                    // input
+    if(x%9==1)                      // Condition
+        printf("Magic Number"); 
+    else
+        printf("Not a Magic Number");        
+    return 0; 
+} 
